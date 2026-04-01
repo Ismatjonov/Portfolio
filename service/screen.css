@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+    header {
+        display: block;
+        padding: 0;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+    header ul {
+        position: absolute;
+        width: 100%;
+        background: #150e33;
+        display: block;
+        text-align: center;
+        line-height: 2.5;
+        opacity: 0;
+        transform: translateY(-400px);
+        transition: 0.6s;
+        padding: 20px 0;
+    }
+    header ul.activate {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    #burger {
+        display: block;
+        cursor: pointer;
+        font-size: 35px;
+        padding: 0px 15px;
+    }
+    .hero {
+        padding: 30px 20px;
+    }
+    .hero-content h1 {
+        font-size: 22px;
+    }
+    .hero-content p {
+        font-size: 16px;
+        padding: 0;
+    }   
+    .hero-content button {
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 20px 0 0 0;
+    }
+    nav {
+        padding: 0;
+        margin: 10px;
+    }
+    nav h1 {
+        font-size: 22px;
+    }
+    nav p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .cards {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        padding: 20px;
+        gap: 0;
+    }
+    .card {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bots {
+        display: block;
+    }
+    main {
+        padding: 10px;
+    }
+    .first_part, .second_part {
+        width: 100%;
+        padding: 10px;
+        transform: translateX(0);
+    }
+    .bots h2 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1024px) {
+    .logo {
+        padding: 20px;
+    }
+    .hero {
+        padding: 20px 10px;
+    }
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .hero-content button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    nav h1 {
+        font-size: 20px;
+    }
+    nav p {
+        font-size: 12px;
+    }
+    .bots h2 {
+        font-size: 20px;
+    }
+}
